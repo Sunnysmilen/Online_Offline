@@ -6,7 +6,7 @@ function userprofile() {
   return (
     <>
       <div className="box">
-        <p>User is {IsOnline ? "hors ligne" : "en ligne"}</p>
+        <p>User is {IsOnline ? "offline" : "online"}</p>
 
         <button
           onClick={() => {
